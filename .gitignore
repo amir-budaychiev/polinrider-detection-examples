@@ -1,0 +1,8 @@
+.DS_Store
+*/.DS_Store
+
+polinrider_infected_files.txt
+polinrider_suspicious_findings.txt
+polinrider_log_hits.txt
+scan_reports/
+reports/
