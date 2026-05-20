@@ -36,6 +36,10 @@ _Screenshot: a familiar commit contained suspicious changes next to ordinary pro
 
 Inside that JS file there were strange obfuscated strings. The code was intentionally written in a way that made it hard for a human to quickly understand what it did.
 
+![Obfuscated JavaScript in babel.config.js](screenshots/example_main_second.png)
+
+_Screenshot: a long obfuscated JavaScript payload was added directly to `babel.config.js`._
+
 At that moment it became clear: this was not a normal Git situation. Something had gone badly wrong.
 
 ## First thought: my computer was hacked
@@ -199,10 +203,6 @@ This is a clever choice.
 Developers rarely read the end of a config file carefully, especially when the project is large and "seems to work". And if the change is hidden inside an existing commit, it becomes even harder to notice.
 
 In my case it also did not look like a separate obvious virus file. It looked like strange changes inside a familiar JS config.
-
-![Obfuscated JavaScript in babel.config.js](screenshots/example_main_second.png)
-
-_Screenshot: a long obfuscated JavaScript payload was added directly to `babel.config.js`._
 
 ## Rewriting the last commit
 
